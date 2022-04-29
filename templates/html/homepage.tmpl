@@ -7,15 +7,15 @@
 [%-
     all_suites = [ 'bionic', 'bionic-updates', 'bionic-backports',
 		   'focal',  'focal-updates',  'focal-backports',
-		   'hirsute', 'hirsute-updates', 'hirsute-backports',
 		   'impish', 'impish-updates', 'impish-backports',
-		   'jammy' ]
+		   'jammy', 'jammy-updates', 'jammy-backports',
+		   'kinetic' ]
     version_numbers = { bionic => '18.04LTS',
 			focal  => '20.04LTS',
-			hirsute => '21.04',
 			impish => '21.10',
+			jammy  => '22.04LTS',
 		      }
-    current_release = 'impish'
+    current_release = 'jammy'
     all_sections = [ 'main', 'multiverse', 'restricted', 'universe' ]
     all_architectures = [ 'i386', 'amd64', 'powerpc' ]
 -%]
@@ -127,6 +127,8 @@ Distribution:
 <hr>
 <h2>News</h2>
 <dl>
+<dt>2022-04-29</dt>
+<dd>Reflect jammy release, add kinetic, remove hirsute.</dd>
 <dt>2021-10-18</dt>
 <dd>Reflect impish release, add jammy, remove groovy.</dd>
 <dt>2021-07-09</dt>
