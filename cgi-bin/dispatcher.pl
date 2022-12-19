@@ -1,4 +1,4 @@
-#!/usr/bin/perl -T
+#!/usr/bin/perl
 # Simple Wrapper for Packages::Dispatcher;
 
 use strict;
